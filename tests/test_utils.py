@@ -1,8 +1,8 @@
-# tests/test_utils.py
+## tests/test_utils.py
 import sys
 import os
 
-# Añadir la carpeta src al path de Python
+# Añadir src al path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
 
 from utils import saludo, suma, resta
