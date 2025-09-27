@@ -1,23 +1,12 @@
-# Archivos compilados de Python
+# Archivos de Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-
-# Entorno virtual
-venv/
-ENV/
-env/
-
-# Pytest cache
 .pytest_cache/
 
-# Archivos de entorno
-.env
+# Entornos virtuales
+venv/
 
-# Archivos del sistema
+# Configuración del sistema / IDE
 .DS_Store
-
-# Otros
 .idea/
 .vscode/
