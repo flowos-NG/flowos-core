@@ -1,12 +1,15 @@
 # Archivos de Python
 __pycache__/
 *.pyc
-.pytest_cache/
 
-# Entornos virtuales
-venv/
+# Archivos de entorno
+.env
 
-# Configuración del sistema / IDE
+# Otros
 .DS_Store
+
+# Cachés de tests y entornos virtuales/editores
+.pytest_cache/
+venv/
 .idea/
 .vscode/
