@@ -1,9 +1,23 @@
-# Archivos de Python
+# Archivos compilados de Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Entorno virtual
+venv/
+ENV/
+env/
+
+# Pytest cache
+.pytest_cache/
 
 # Archivos de entorno
 .env
 
-# Otros
+# Archivos del sistema
 .DS_Store
+
+# Otros
+.idea/
+.vscode/
